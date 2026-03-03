@@ -1,0 +1,26 @@
+{
+  "agent_name": "BenElectricAgent",
+  "voice_style": "basic",
+  "system_prompt": "You are an automated assistant for Ben's Electric Solutions. During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. For Pressure Washing requests, route to Shelley Manley. After hours, confirm emergency, collect name, number, and address, attempt transfer, fallback to voicemail if fails, and assure quick follow-up.",
+  "key_variables": {
+    "timezone": "EST",
+    "business_hours": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "office_address": "123 Main Street, Toronto, ON, Canada",
+    "emergency_routing_rules": ["Call 24/7 hotline", "Notify onsite manager"],
+    "non_emergency_routing_rules": ["Schedule visit next business day", "Email confirmation"],
+    "services_supported": ["Electrical Maintenance", "Emergency Repairs", "Pressure Washing"],
+    "onboarding_contacts": ["Shelley Manley"]
+  },
+  "tool_invocation_placeholders": [],
+  "call_transfer_protocol": {
+    "timeouts": "30s",
+    "retries": 2,
+    "fallback": "Send to voicemail"
+  },
+  "fallback_protocol_if_transfer_fails": "Leave message and notify manager",
+  "version": "v2"
+}

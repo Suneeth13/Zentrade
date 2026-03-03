@@ -1,0 +1,24 @@
+{
+  "account_id": "ben001",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "services_supported",
+      "old_value": ["Electrical Maintenance", "Emergency Repairs"],
+      "new_value": ["Electrical Maintenance", "Emergency Repairs", "Pressure Washing"],
+      "description": "Added Pressure Washing service from onboarding info"
+    },
+    {
+      "field": "primary_contact",
+      "old_value": null,
+      "new_value": {
+        "name": "Shelley Manley",
+        "email": "gm_pressurewash@yahoo.ca",
+        "phone": "403-870-8494"
+      },
+      "description": "Added primary contact from onboarding info"
+    }
+  ],
+  "notes": "Generated from onboarding info and demo call updates"
+}

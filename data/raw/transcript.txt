@@ -1,0 +1,211 @@
+[0.00s -> 11.00s]  Just give me a second, we'll let Ben in.
+[11.00s -> 17.56s]  Okay, so now we can change his name to, hopefully, going forward, now if you can put
+[17.56s -> 25.80s]  Clara's display picture, that'll be helpful. Clara's support, I'm changing your name.
+[25.80s -> 41.20s]  And okay, cool. I'll let him in. Yes, the good. Alright, letting him in in 3, 2, 1 and
+[41.20s -> 54.96s]  Ben is in very sweet caliber. He's in. Hey, Ben, good afternoon.
+[54.96s -> 64.36s]  Oh, wait, hey, hi, good afternoon. Hey, Ben, how are you? I'm doing well, how are you?
+[64.36s -> 69.20s]  Very well, thank you so much for asking, very, really excited to kick things off for you.
+[69.20s -> 76.60s]  And yeah, I mean, how have things been since the last time we spoke? Good, busy, busy,
+[76.60s -> 84.36s]  that's good. It's been around for sure, so it's been fun. Yeah, I just signed the, the
+[84.36s -> 89.76s]  docky sign. Oh, okay. You look like it said, like a 12 month term, and I think we were talking
+[89.76s -> 95.48s]  about three months to start. Correct. So what it means there is that after the three months
+[95.48s -> 99.76s]  if you decide to continue, which I'm sure you will, the price will stay the same.
+[99.76s -> 104.64s]  So that's what that 12 month term meant means. So you'll be good.
+[104.64s -> 108.68s]  Correct. It just helps you with the cost increase. Yeah. So if signed the docky sign.
+[108.68s -> 113.20s]  Yeah. Awesome. I think I'll be getting a notification on the billing team. And I think the
+[113.20s -> 117.00s]  card that you probably the details that you shared with me that also might be in process
+[117.00s -> 121.68s]  of getting executed. So I think we're good. But all that aside, I just want to introduce
+[121.68s -> 130.32s]  the new phase that you can probably see on your screen. That's Pavan. Hey, Ven. I wanted
+[130.32s -> 136.04s]  to get somebody who I mean, who understands things in and out and turns out Pavan's the
+[136.04s -> 140.12s]  one who started the whole journey of flour answer. So he's somebody who's very deeply
+[140.12s -> 147.52s]  knitted into this program. This solution. So he'll match your pace, understand your expectations,
+[147.52s -> 151.72s]  and of course, married and then present the solution to you. So he's going to be a dedicated
+[151.72s -> 155.68s]  point of contact. But if in this, if any case, if at any point, there has to be more people
+[155.68s -> 159.92s]  involved, we'll of course notify you and then we'll do other people in as well. Okay.
+[159.92s -> 167.48s]  So that's how that's Pavan take over. And yeah, we'll kick things off. Yeah. Thank you
+[167.48s -> 173.52s]  so much, Bharat. And yeah, Bharat is my hype man. Yeah. Perfect. With all the intro.
+[173.52s -> 179.56s]  But yeah, I mean, super excited to get you started. Ben got all the context of your business
+[179.56s -> 184.12s]  while you're trying to solve with, you know, the first solution here, that is, you know,
+[184.12s -> 189.84s]  AI for answering for your business got all the context from Bharat in the way you guys operate
+[189.84s -> 197.76s]  today. With that information, we already have the, you know, base variant of the agent configured.
+[197.76s -> 202.48s]  Just one this couple of details, you know, some detail that I wanted to clarify so that
+[202.48s -> 207.24s]  we can complete that configuration and make the agent available for your testing today itself,
+[207.24s -> 212.44s]  right? That'll be the target. The way the process would look like as well is we'll share
+[212.44s -> 218.24s]  the number on which the agent will be available and the dashboard as well. So that, you know,
+[218.24s -> 223.36s]  you can run some test calls, see how the agent is responding, all that you after this call
+[223.36s -> 229.36s]  will share that details with you by making those final configuration. And then post that,
+[229.36s -> 235.20s]  we can probably set up another call for Friday if you have some time because you get this
+[235.20s -> 241.60s]  one day to really test and, you know, run some test calls, see if you'd want anything changed.
+[241.60s -> 248.60s]  And then, you know, we can probably, you know, have the agent take life calls this weekend,
+[248.60s -> 254.44s]  right? Okay. So firstly to, I mean, get an understanding, we'll divide the conversation
+[254.44s -> 264.24s]  into during officers and after hours just to get the behavior that we'd want to have for
+[264.24s -> 269.88s]  the agent. So for during officers, then is it only you who takes all the incoming calls from
+[269.88s -> 277.16s]  customers or is there anyone else as well? No, right now it's just me. Yeah. So we have, we have
+[277.16s -> 282.60s]  some steady like contractors and they have the phone numbers for some of my team so they can talk
+[282.68s -> 289.80s]  directly and for the guys in the field, but generally like what I need this for is the new clients,
+[289.80s -> 294.36s]  the small jobs, the service calls, people that call every day that we don't have a already
+[294.36s -> 299.32s]  working relationship with. So, but anyways, yeah, it's me that takes those calls. Okay, it makes
+[299.32s -> 305.40s]  sense. And then so when Clara will be set up, the way it'll be set up is your main business line
+[305.48s -> 313.00s]  today by default, the forwarding will be set up from there to Clara. So you know, we can start off
+[313.00s -> 317.56s]  with, so what I understand from birth is you only have one number and that is your personal number,
+[317.56s -> 322.76s]  that is your business line. I think that is, do you do you buy any chance happen to have a second
+[322.76s -> 328.12s]  number? I do. I've got a, I was actually thinking about this a while ago. So I actually have another
+[328.12s -> 333.96s]  phone with the phone line that I'm going to use for personal. Yeah, I just have to get it going and
+[333.96s -> 342.36s]  tell all my contacts, my new number. Perfect. Yeah. So yeah, I was going to say, like, can I turn
+[342.36s -> 346.52s]  until I get that done? Am I able to turn Clara off and on as needed kind of thing?
+[346.52s -> 353.80s]  Yes. So the way, then we can, the way we can set it up is, you know, on your phone, how do you use
+[354.52s -> 360.68s]  iOS device? Like an Apple device or an Android? Android. Perfect. That makes it even easier,
+[360.68s -> 365.80s]  because you, you can really set some, you know, the way we can start off is on your phone,
+[365.80s -> 370.36s]  you can set up the call forwarding in a way where if you do not answer the call or if you decline
+[370.36s -> 376.92s]  the call, then we can forward the calls to Clara. So in that way, in that way, we can start off
+[376.92s -> 381.56s]  like that until you have the second number up and running. Once the second number is up,
+[382.20s -> 388.52s]  then, you know, we can have Clara be the first point of contact and then if someone wants to talk to
+[389.00s -> 392.92s]  you or, you know, then, then we can transfer it to the second number.
+[392.92s -> 397.16s]  Oh, I was actually going to ask that today. So Clara can transfer if somebody really needs to talk to me,
+[397.16s -> 402.36s]  Clara can transfer that call. Yes. That's where that's where we need that second number. That's where
+[403.56s -> 410.36s]  Oh, got you. Okay. Yep. So that is possible. Cool. So when the second number is up and running,
+[410.36s -> 415.16s]  probably that is one number that I'll need from you. You can just, I'll send my, I'll send the details
+[415.16s -> 419.40s]  of the agent on the email so you can apply to that. I'll include these pointers as well so that
+[419.40s -> 426.44s]  can. So for officers, that is one. And then for anyone who's calling to probably schedule an
+[426.44s -> 435.24s]  appointment or is inquiring about a quote, do you have any minimum, like a visit fee that you charge
+[435.24s -> 440.76s]  if you have to ever give out a message? Yeah, our structure is set up like for service calls.
+[441.56s -> 447.32s]  We do have a service call fee, which is $115. That's a call out, which is what gets us to the
+[447.32s -> 455.24s]  job site. And then our hourly charge is in half hour increments after that. At the hourly rate
+[455.24s -> 464.28s]  of $90 an hour for a residential. Okay. Is it 98 or 98? 98. Okay. Perfect. For hour, which for
+[464.28s -> 473.32s]  half hour is going to be, of course, 40? 9? Yeah. Yeah. Cool. And then for the initial 115. So for that,
+[473.80s -> 478.52s]  do you have a, like does that cover for the first one or two hours or anything like that?
+[478.52s -> 484.76s]  Well, that's just the call out to get to site. Okay. And then. Yeah. Okay. So
+[484.76s -> 492.44s]  so basically it's $150 for the first half hour or 100. Oh, okay. Yeah. That's what it. Okay.
+[492.44s -> 496.60s]  For the first first half hour, it's the initial call out and then every afternoon increments from
+[496.60s -> 504.04s]  there. Perfect. In a sense. So and do you want Clara to mention that on the call or shall we start
+[504.04s -> 510.36s]  off with not mentioning and you want to take that call subjectively based on because some calls
+[510.36s -> 515.88s]  you may most of the time, I've definitely learned that people need to know about that before we,
+[516.44s -> 522.20s]  before we book the job. Yeah. So when people ask, I do want Clara to be able to mention that.
+[524.36s -> 529.00s]  Only if they want to clarify, we'll mention, but we'll not make it a point to mention on every. I
+[529.00s -> 533.72s]  think so. Yeah. I mean, I guess Clara actually speaks better than I do. Sorry. I'm trying to
+[534.84s -> 538.68s]  mute my phone right now. I've got a whole bunch of notifications coming in here.
+[541.00s -> 545.48s]  I double book myself. I actually have a flat tire and I've got a mobile tire repair guy right now.
+[548.04s -> 551.56s]  Excuse me. One quick sack and he's just outside my door. Sorry, guys. Yes.
+[600.36s -> 601.80s]  I just got to pay this guy.
+[690.36s -> 692.84s]  You
+[721.24s -> 723.24s]  You
+[737.80s -> 741.48s]  Oh, so sorry, guys. Sorry. Sorry. Sorry. Sorry. No problem.
+[744.20s -> 748.04s]  Good. Yeah. Yeah. Are you doing that? Sorry. Sorry. Yeah. Pop them.
+[748.44s -> 755.24s]  No problem at all. No problem at all. So we're talking about service call fee and we'll only
+[755.96s -> 760.92s]  include, you know, we'll not make it a point to mention it on all call, but you know,
+[760.92s -> 766.76s]  we'll have. Yeah. We'll have that information. Yeah. When people ask for if there is a minimum fee or
+[767.40s -> 775.00s]  anything on each. Right. Cool. And then for everything else, I think everything else is clear
+[775.00s -> 778.20s]  from the website already. So we'll start out there. But, you know, we can
+[779.00s -> 784.36s]  any day as the calls come in, you know, we can make changes. It's not like very injured in that way.
+[784.36s -> 789.80s]  So if you want to include some policies or, you know, if you don't want a specific type of calls
+[789.80s -> 794.84s]  handled a little differently, all of that, we can, you know, take it up when as and when they pop up.
+[795.88s -> 801.80s]  Okay. So that was one. The other one is so we can send out a notification whenever there's a new call.
+[802.36s -> 807.80s]  So do you have a preferred email address and a phone number so that we can have the email
+[807.80s -> 816.04s]  in the SMS. Yeah. Let me just think here. Probably the best one info at Ben's electric
+[816.04s -> 822.60s]  solutions team.com. Okay. So just so that I don't get the spelling wrong here will be possible
+[822.60s -> 827.96s]  to drop that in the chat. Yeah, sure. It's basically the same as if you have my email address,
+[827.96s -> 834.20s]  it's the same info instead of Ben. Yeah. But I will write it down for you.
+[835.40s -> 837.72s]  Yep. I'll get that from there.
+[840.28s -> 845.88s]  We'll end the number on which you'd. So the main line that you're using will use the same number
+[845.88s -> 852.52s]  to send the SMS. The same number to send which sir? So we'll send the post call like whenever
+[852.52s -> 857.16s]  there is a new call from the customer, you'll get an SMS as well saying, oh yeah, yeah,
+[857.24s -> 861.32s]  actually, I was going to ask about that too. If it affects text messages or not, but probably not.
+[862.04s -> 867.08s]  Oh, okay. Okay. So we'll have both the email and text message set up on that number.
+[867.80s -> 873.72s]  Okay. Perfect. And so, um, yeah, if people are text messaging me on this phone,
+[873.72s -> 878.44s]  that's not going to get in. I'll get those text messages right away. So your phone,
+[878.44s -> 884.92s]  your phone, the main line will be working fine on like only the incoming calls are getting
+[884.92s -> 889.88s]  forwarded to Clara, but everything. The call you can make outbound calls using your number,
+[889.88s -> 894.28s]  you can text, back and forth, all of that is still, you know, pretty much the same.
+[895.16s -> 902.92s]  Perfect. Exactly. Okay. So that is with the officers, but coming to after hours, Ben,
+[903.72s -> 911.72s]  do you do any kind of dispatch for after hours? No, we don't do emergency calls,
+[912.04s -> 918.52s]  except for, you know, our existing builders, and I've got one property manager
+[920.04s -> 924.20s]  that sometimes they've got some, they've got gas stations that are running 24-7.
+[925.16s -> 931.64s]  So, sure and answer is no, but yes, for one particular company. Okay. So if you have that one
+[931.64s -> 938.52s]  particular company, if it can help me with the details of that company, what we can do is, you know,
+[938.52s -> 945.56s]  if a call, if someone from that property calls for an emergency after hours, then you can patch it
+[945.56s -> 951.80s]  through to... Oh, okay. So you can actually select one number that's allowed to get patched through.
+[952.28s -> 956.92s]  Yeah, but it's more, yeah, we can use that number, or even if you give me the context of the property
+[956.92s -> 963.24s]  because you don't know who will be calling from that property, right? So you can just give me the
+[963.32s -> 969.56s]  details of, yes, the customer name, address. If you have that handy, you can drop that in the chat.
+[969.56s -> 974.84s]  Yeah. But even if... Okay. Yeah. So just the details, customer name, property name,
+[974.84s -> 981.16s]  their address, primary contact. So right here in my phone, give me one moment. Yep.
+[984.36s -> 985.24s]  So, Shelley,
+[993.88s -> 1001.48s]  okay. So I'll put it in the chat. It's weird. It's a property manager, but they also do a lot of
+[1002.44s -> 1007.88s]  pressure-washing and landscaping, so the company is actually called G&M pressure-washing,
+[1007.88s -> 1013.00s]  but they're property management. I think they can use Clarence as well.
+[1015.96s -> 1017.00s]  Yeah, they probably could.
+[1023.24s -> 1050.76s]  Did you say you need their email address as well? Yeah. I mean, any information that you already have,
+[1050.76s -> 1058.36s]  so that when they call, you know, we if they mention, hey, I'm Shelley, you know, this is the number,
+[1058.36s -> 1061.72s]  or even if someone else is calling as well, and they say, hey, this is from...
+[1063.40s -> 1065.72s]  Okay. From G&M pressure wash. Yeah.
+[1068.44s -> 1073.00s]  Yeah. Okay. How is this? See if I can.
+[1073.48s -> 1077.16s]  Coffee here.
+[1079.00s -> 1086.36s]  But G&M is just one question there, Ben. So G&M is the property management company,
+[1087.16s -> 1094.84s]  but the property... Okay. Is it a specific property under them for which they would call for
+[1094.84s -> 1100.28s]  emergencies, or is it their facility itself? No, it's properties that they manage. So it's
+[1100.28s -> 1109.72s]  it's gas stations. So we do, we can work for them. They manage Chevron and Essos.
+[1110.52s -> 1116.68s]  Okay. So when they call, do they... I think they'll be giving you the gas station details, right?
+[1117.64s -> 1124.28s]  Yes. Yeah. She'll normally... She's... I've had a couple of calls in the middle of the night,
+[1124.28s -> 1130.76s]  and she'll usually message me or... Yeah, she'll tell me the details, and she'll send me a text message
+[1130.76s -> 1135.16s]  as well. So she generally will give all of that information. Okay.
+[1136.60s -> 1139.96s]  Because yeah, there's several... There's several properties about 20 gas stations,
+[1140.60s -> 1144.84s]  you know, around the city that we work in. Yeah. You probably have to just let
+[1144.84s -> 1152.04s]  know, hey, I'm trying this, you know, answering service out. So you can just call in and drop all the
+[1152.04s -> 1157.56s]  context, and I'll... Sure. I'll be there. The call will be patched through right to me.
+[1158.60s -> 1165.96s]  Okay. Perfect. Cool. So that covers the afterwards as well, because there's only one property,
+[1165.96s -> 1169.48s]  or you know, one customer... Yeah, there's really only the one customer.
+[1169.48s -> 1174.76s]  Yeah. For everyone else, we'll just have it as... You know, we'll get back to you
+[1174.76s -> 1179.48s]  next Thursday. And then... Yeah. The working hours are Monday to Friday.
+[1179.48s -> 1182.76s]  Shall we take directly from the website? I think it's Monday to Friday.
+[1183.96s -> 1188.20s]  And then... Yeah, Monday to Friday. I think what the website says is 8 to 4.30.
+[1189.16s -> 1196.12s]  Basically, pretty much 8.35 is kind of what we work, but yeah. Perfect. We'll use that information.
+[1196.12s -> 1200.20s]  Again, like I said, we're starting there, but if we want to make any changes, we can always
+[1200.20s -> 1207.40s]  take that. Okay. Maria, that was pretty much... Like, that was pretty much all the information that I
+[1207.40s -> 1213.40s]  needed because the rest of the information we're already using your website to have the agent
+[1213.40s -> 1219.64s]  trained on it. So there's no problems there. But yeah, we should already help us complete the
+[1219.64s -> 1225.96s]  configuration and send the details over to you. This is the... So I'll send a link to the dashboard
+[1225.96s -> 1232.12s]  where you can see all the calls and then number. And purposefully, not sharing the screen to show
+[1232.12s -> 1238.76s]  you the dashboard around. But I don't want you to just log in, try your hand at the dashboard.
+[1238.76s -> 1245.00s]  And then when we probably... We can schedule a time on Friday. And then that's when you'd already
+[1245.00s -> 1250.36s]  have made some test calls. All of them would be on the dashboard and I can just walk you through
+[1251.00s -> 1256.20s]  how you can actually put the dashboard to the best use. Perfect.
+[1258.84s -> 1265.56s]  So, for Friday, do you have a time and mind where we can connect again?
+[1265.56s -> 1271.00s]  Let me just make sure my schedule I've got nothing else going on on Friday.
+[1271.80s -> 1275.32s]  Don't take too long. If same time works, you can have it in the same time zone.
+[1275.32s -> 1286.28s]  I did. Oh, I think... Where's that? I think I've got something on Friday, hang on a moment.
+[1305.32s -> 1326.92s]  Yeah, noon's not going to be good. Okay, so I've got a meeting already, lunch meeting from noon
+[1326.92s -> 1333.48s]  to one on Friday. So, how much time do you think we need for the meeting on Friday?
+[1333.48s -> 1340.20s]  Less than half an hour. It's probably 15-20 minutes. So, what we'll essentially be doing is
+[1340.20s -> 1346.44s]  after receiving the details today, you will try making some test calls and then see how the
+[1346.44s -> 1350.68s]  email is coming through, how the SMS is coming through, how the details pop up on the dashboard.
+[1351.32s -> 1357.00s]  On Friday, when we meet, it's more of if you observe something that needs changes,
+[1357.00s -> 1361.48s]  that's something that we will address on the call and then I'll just walk you around the dashboard
+[1361.96s -> 1370.20s]  probably show you some nice features. Let's do it. Yeah, okay. Let's do it in the afternoon.
+[1370.20s -> 1372.84s]  I think that'd be a little better if you've got some time around 2 o'clock.
+[1374.28s -> 1379.80s]  Hey, that's fine. We can schedule it for two o'clock on Friday. Perfect.
+[1381.64s -> 1389.96s]  So, once after we meet on Friday, we can have the setting already. We can follow the main line.
+[1389.96s -> 1393.96s]  We can have the, because that's how it works. Once you put it in front of the customer,
+[1394.68s -> 1400.92s]  you'll see how they're receiving it and you'll already see a lot of time given back to yourself.
+[1402.20s -> 1408.84s]  Not having to talk about all the spam calls. Yeah. So, once we go live,
+[1410.12s -> 1415.08s]  then it's going to answer the calls. Oh, we can configure it. So, it answers the calls if I don't,
+[1415.08s -> 1422.04s]  right? Yeah. So, that's a setting that we can just, do you think the second number will be up by Friday
+[1422.04s -> 1428.44s]  then? Would you think that's a possibility? Yeah. That'll be ideal where we can set it up in a way
+[1428.44s -> 1434.04s]  where we can forward all the calls from mainline onto para and then from there if someone wants to talk
+[1434.04s -> 1439.16s]  to, you know, you or someone, they're like, I want to talk to someone because you would have that,
+[1439.80s -> 1444.60s]  you know, percentage of customers who will be like, I don't want to go through this. Just put me
+[1444.68s -> 1451.32s]  through. We don't want to create a lot of friction there. So, we can just patch them through
+[1452.04s -> 1460.12s]  but we'll just get a quick purpose of why they're calling. So, in initial few days, there'll be that
+[1460.12s -> 1468.76s]  calibration where all the, along with all the spam calls, you know, one or two spam calls might be
+[1468.84s -> 1475.96s]  going through, you know, the sales calls that are coming in but it will probably be the edge cases
+[1475.96s -> 1481.32s]  here and there where someone told something a little differently and then they told it's relative
+[1481.32s -> 1489.32s]  of yours and then they got through to make a sales call, right? So, we'll try to have all of that
+[1489.96s -> 1492.92s]  minimize. We'll start off with, you know, keeping the door
+[1493.40s -> 1501.56s]  or relatively closed, we'll shut the door, you know, as we go. Yeah. Sounds good.
+[1501.56s -> 1505.88s]  Cool. And we'll have the testing piece taken care of in the following conversations and should
+[1505.88s -> 1512.52s]  everything go well, we can get things up and running for you. That'd be great. I'll like it.
+[1512.52s -> 1518.20s]  Cool. Cool. And yeah, just watch out for my email there when I'll drop the details of the agent,
+[1518.20s -> 1522.52s]  the number which you can dial you to talk to the agent. Nothing is live yet. So,
+[1522.52s -> 1526.36s]  you can directly call that number, have a conversation, see how the agent responds
+[1526.36s -> 1532.92s]  and you see the post-call workflow in that way as well. Yeah. Fantastic. So, that was all I had
+[1532.92s -> 1538.84s]  from my side. Thank you so much for your time, Ben, but yeah, over you, Bharat. Yeah.
+[1539.64s -> 1546.60s]  Awesome. Go. I'll just, I'll see you, Ben. Just watch out for me. Thank you, Ben. Yeah, thanks.

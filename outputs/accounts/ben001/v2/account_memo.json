@@ -1,0 +1,25 @@
+{
+  "account_id": "ben001",
+  "company_name": "Ben's Electric Solutions",
+  "business_hours": {
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "start": "09:00",
+    "end": "18:00",
+    "timezone": "EST"
+  },
+  "office_address": "123 Main Street, Toronto, ON, Canada",
+  "services_supported": ["Electrical Maintenance", "Emergency Repairs", "Pressure Washing"],
+  "emergency_definition": ["Power Outage", "Fire Alarm"],
+  "emergency_routing_rules": ["Call 24/7 hotline", "Notify onsite manager"],
+  "non_emergency_routing_rules": ["Schedule visit next business day", "Email confirmation"],
+  "call_transfer_rules": {
+    "timeouts": "30s",
+    "retries": 2,
+    "fallback": "Send to voicemail"
+  },
+  "integration_constraints": ["Never create sprinkler jobs in ServiceTrade"],
+  "after_hours_flow_summary": "Greet, collect info, route emergency, fallback to voicemail",
+  "office_hours_flow_summary": "Greet, collect info, transfer to proper agent, confirm next steps",
+  "questions_or_unknowns": [],
+  "notes": "Created from demo call transcript; onboarding info added for Shelley Manley, Pressure Washing service, email gm_pressurewash@yahoo.ca"
+}

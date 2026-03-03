@@ -1,0 +1,23 @@
+{
+  "account_id": "ben001",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "services_supported",
+      "previous": ["Electrical Maintenance", "Emergency Repairs"],
+      "updated": ["Electrical Maintenance", "Emergency Repairs", "Pressure Washing"]
+    },
+    {
+      "field": "notes",
+      "previous": "Created from demo call transcript",
+      "updated": "Created from demo call transcript; onboarding info added for Shelley Manley, Pressure Washing service, email gm_pressurewash@yahoo.ca"
+    },
+    {
+      "field": "system_prompt",
+      "previous": "During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. After hours, confirm emergency, collect name, number, and address, attempt transfer, fallback to voicemail if fails, and assure quick follow-up.",
+      "updated": "During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. For Pressure Washing requests, route to Shelley Manley. After hours, confirm emergency, collect name, number, and address, attempt transfer, fallback to voicemail if fails, and assure quick follow-up."
+    }
+  ],
+  "timestamp": "2026-03-03T12:00:00"
+}

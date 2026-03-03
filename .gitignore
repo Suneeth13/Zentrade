@@ -1,0 +1,15 @@
+# Ignore audio/video files
+*.wav
+*.mp4
+*.m4a
+*.flac
+
+# Ignore ffmpeg folder
+ffmpeg-*
+
+# Ignore Whisper models
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
