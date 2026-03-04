@@ -5,6 +5,7 @@ memo_path = "D:/Zentrade/outputs/accounts/ben001/v2/account_memo.json"
 agent_path = "D:/Zentrade/outputs/accounts/ben001/v2/retail_agent_spec_v2.json"
 changelog_path = "D:/Zentrade/outputs/accounts/ben001/v2/changelog_v2.json"
 
+
 # Load JSONs
 with open(memo_path, "r") as f:
     account_memo = json.load(f)
