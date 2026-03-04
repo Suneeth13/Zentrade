@@ -1,0 +1,137 @@
+{
+    "agent_spec": {
+        "agent_name": "BenElectricAgent",
+        "voice_style": "basic",
+        "system_prompt": "You are an automated assistant for Ben's Electric Solutions. During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. After hours, confirm emergency, collect name, number, and address, attempt transfer, fallback to voicemail if fails, and assure quick follow-up.",
+        "key_variables": {
+            "timezone": "EST",
+            "business_hours": {
+                "days": [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri"
+                ],
+                "start": "09:00",
+                "end": "18:00"
+            },
+            "office_address": "123 Main Street, Toronto, ON, Canada",
+            "emergency_routing_rules": [
+                "Call 24/7 hotline",
+                "Notify onsite manager"
+            ],
+            "non_emergency_routing_rules": [
+                "Schedule visit next business day",
+                "Email confirmation"
+            ],
+            "services_supported": [
+                "Electrical Maintenance",
+                "Emergency Repairs",
+                "Pressure Washing"
+            ],
+            "primary_contact": {
+                "name": "Shelley Manley",
+                "email": "gm_pressurewash@yahoo.ca",
+                "phone": "403-870-8494"
+            }
+        },
+        "tool_invocation_placeholders": [],
+        "call_transfer_protocol": {
+            "timeouts": "30s",
+            "retries": 2,
+            "fallback": "Send to voicemail"
+        },
+        "fallback_protocol_if_transfer_fails": "Leave message and notify manager",
+        "version": "v2",
+        "notes": "Updated with onboarding info from Shelley Manley and Pressure Washing service"
+    },
+    "account_memo": {
+        "account_id": "ben001",
+        "company_name": "Ben's Electric Solutions",
+        "business_hours": {
+            "days": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri"
+            ],
+            "start": "09:00",
+            "end": "18:00",
+            "timezone": "EST"
+        },
+        "office_address": "123 Main Street, Toronto, ON, Canada",
+        "services_supported": [
+            "Electrical Maintenance",
+            "Emergency Repairs",
+            "Pressure Washing"
+        ],
+        "emergency_definition": [
+            "Power Outage",
+            "Fire Alarm"
+        ],
+        "emergency_routing_rules": [
+            "Call 24/7 hotline",
+            "Notify onsite manager"
+        ],
+        "non_emergency_routing_rules": [
+            "Schedule visit next business day",
+            "Email confirmation"
+        ],
+        "call_transfer_rules": {
+            "timeouts": "30s",
+            "retries": 2,
+            "fallback": "Send to voicemail"
+        },
+        "integration_constraints": [
+            "Never create sprinkler jobs in ServiceTrade"
+        ],
+        "after_hours_flow_summary": "Greet, collect info, route emergency, fallback to voicemail",
+        "office_hours_flow_summary": "Greet, collect info, transfer to proper agent, confirm next steps",
+        "questions_or_unknowns": [],
+        "notes": "Created from demo call transcript; onboarding info added for Shelley Manley, Pressure Washing service, email gm_pressurewash@yahoo.ca"
+    },
+    "changelog": {
+        "account_id": "ben001",
+        "version_from": "v1",
+        "version_to": "v2",
+        "changes": [
+            {
+                "field": "services_supported",
+                "old_value": [
+                    "Electrical Maintenance",
+                    "Emergency Repairs"
+                ],
+                "new_value": [
+                    "Electrical Maintenance",
+                    "Emergency Repairs",
+                    "Pressure Washing"
+                ],
+                "description": "Added Pressure Washing service from onboarding info"
+            },
+            {
+                "field": "primary_contact",
+                "old_value": null,
+                "new_value": {
+                    "name": "Shelley Manley",
+                    "email": "gm_pressurewash@yahoo.ca",
+                    "phone": "403-870-8494"
+                },
+                "description": "Added primary contact from onboarding info"
+            }
+        ],
+        "notes": "Generated from onboarding info and demo call updates"
+    },
+    "recordings": {
+        "magic_number": "975518882",
+        "items": [
+            {
+                "process": 100,
+                "audio": "audio1975518882.m4a",
+                "prefix": "",
+                "video": "video1975518882.mp4"
+            }
+        ]
+    }
+}
