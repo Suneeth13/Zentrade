@@ -278,7 +278,7 @@ See `workflows/SETUP.md` for detailed instructions.
 
 ## Demo Video
 
-> [Loom Video Link: YOUR_LINK_HERE]
+[Loom Video: Clara Answers Pipeline Demo](https://www.loom.com/share/bd423b28c0834f97ab2ac07d9a095407)
 
 ---
 

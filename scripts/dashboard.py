@@ -34,16 +34,16 @@ def get_account_data():
         if os.path.exists(v1_memo_path):
             try:
                 memo = load_json(v1_memo_path)
-                data["v1"] = {
+                data["v1"] = { # type: ignore
                     "exists": True,
                     "company_name": memo.get("company_name", "Unknown"),
                     "services": memo.get("services_supported", []),
                     "business_hours": memo.get("business_hours", {})
                 }
             except:
-                data["v1"] = {"exists": True, "error": True}
+                data["v1"] = {"exists": True, "error": True} # type: ignore
         else:
-            data["v1"] = {"exists": False}
+            data["v1"] = {"exists": False} # type: ignore
         
         # Check v2
         v2_memo_path = f"{account_path}/v2/account_memo.json"
@@ -53,7 +53,7 @@ def get_account_data():
         if os.path.exists(v2_memo_path):
             try:
                 memo = load_json(v2_memo_path)
-                data["v2"] = {
+                data["v2"] = { # type: ignore
                     "exists": True,
                     "company_name": memo.get("company_name", "Unknown"),
                     "services": memo.get("services_supported", []),
@@ -65,9 +65,9 @@ def get_account_data():
                     except:
                         pass
             except:
-                data["v2"] = {"exists": True, "error": True}
+                data["v2"] = {"exists": True, "error": True} # type: ignore
         else:
-            data["v2"] = {"exists": False}
+            data["v2"] = {"exists": False} # type: ignore
         
         accounts.append(data)
     

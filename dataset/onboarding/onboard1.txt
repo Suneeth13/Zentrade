@@ -1,5 +1,44 @@
-11:18:43	 From BP : info@benselectricsolutionsteam.com
-11:21:16	 From BP : G&M Pressure washing
-11:21:24	 From BP : Shelley Manley
-11:21:41	 From BP : 403-870-8494
-11:22:38	 From BP : gm_pressurewash@yahoo.ca
+Company: Ben's Electric Solutions
+Contact: Ben Penoyer
+Phone: 403-975-1773
+Email: info@benselectricsolutionsteam.com
+Address: 17119 Sundown Road, Southeast Calgary, Alberta T2X3D4
+
+Services Offered:
+- Electrical service calls
+- EV charger installations
+- Hot tub hookups (electrical only)
+- Panel changes
+- Renovations
+- Troubleshooting
+- New projects (custom homes, tenant improvements)
+- 24/7 emergency for property managers
+
+Business Hours: Monday-Friday 8:00am onwards
+
+Pricing:
+- Call-out fee: $115
+- Hourly rate: $90/hour (residential)
+- First half hour: $115 (includes call-out)
+
+Team:
+- 3 company work vans
+- 3 journeymen
+- 1 apprentice
+- Subcontractors (used for overflow)
+- Operations manager starting soon (Greg)
+
+CRM: Jobber
+
+After Hours:
+- Ben is on-call
+- Handles emergencies for property managers (gas stations)
+- Regular calls deferred to next business day
+
+Special Notes:
+- Uses Google Voice (not ideal - numbers show as spam)
+- Previous virtual receptionist didn't work well
+- Interested in Clara AI to handle calls
+- Plan: $249/month for 500 minutes
+- 3-month trial agreed
+

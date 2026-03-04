@@ -26,7 +26,8 @@
       "Create work order"
     ],
     "services_supported": [
-      "General Service"
+      "HVAC",
+      "Property Management"
     ]
   },
   "tool_invocation_placeholders": [],

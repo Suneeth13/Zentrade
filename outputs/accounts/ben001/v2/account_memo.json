@@ -15,7 +15,8 @@
   },
   "office_address": "See account notes",
   "services_supported": [
-    "General Service"
+    "HVAC",
+    "Property Management"
   ],
   "emergency_definition": [
     "Urgent Issue"
