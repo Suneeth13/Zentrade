@@ -160,7 +160,7 @@ python scripts/simulate_call_v2_import.py
 docker-compose up -d
 ```
 
-2. **Access n8n UI:** http://localhost:5678
+2. **Access n8n UI:** http://localhost:5678 (Sample Credentials)
    - Username: `admin`
    - Password: `clara123`
 
@@ -253,28 +253,6 @@ See `workflows/SETUP.md` for detailed instructions.
 
 ---
 
-## Known Limitations
-
-1. **Rule-based extraction**: Uses simple keyword matching; may miss nuanced information
-2. **No real Retell API integration**: Outputs are spec files, not live agent deployments
-3. **No speech-to-text**: Requires pre-transcribed text input
-4. **No external LLM**: Uses template-based prompt generation (zero-cost constraint)
-5. **Limited error handling**: Basic validation only
-6. **Single timezone**: Defaults to PST/EST; needs configuration for other zones
-
----
-
-## Future Improvements
-
-- [ ] Add local LLM (Ollama) for better extraction
-- [ ] Real Retell API integration (requires paid account)
-- [ ] Speech-to-text integration (Whisper)
-- [ ] Dashboard for visualizing call handling
-- [ ] Diff viewer for v1 vs v2 comparison
-- [ ] Asana/task integration for tracking
-- [ ] Email notifications for new accounts
-
----
 
 ## Demo Video
 
@@ -290,7 +268,7 @@ Author: Suneeth S
 
 ---
 
-## Contact
+## References
 
-For questions or issues, please review the workflow setup guide in `/workflows/SETUP.md`.
+Please review the workflow setup guide in `/workflows/SETUP.md`.
 
