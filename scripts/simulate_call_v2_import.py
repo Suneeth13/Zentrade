@@ -32,21 +32,36 @@ def is_business_hour():
 # Simulate a call automatically
 def simulate_call():
     print("=== Incoming Call ===")
+    
     # Use imported JSON data automatically
-    caller_name = primary_contact.get("name", "Unknown Caller")
-    caller_phone = primary_contact.get("phone", "Unknown Phone")
-    # Use first service supported as the purpose
-    purpose = services_supported[0] if services_supported else "General Inquiry"
+    caller_name = primary_contact.get("name", "")
+    caller_phone = primary_contact.get("phone", "")
+    purpose = services_supported[0] if services_supported else ""
+    
+    # Track unknown or missing info
+    questions_or_unknowns = []
+    if not caller_name:
+        questions_or_unknowns.append("Caller name missing")
+    if not caller_phone:
+        questions_or_unknowns.append("Caller phone missing")
+    if purpose.lower() not in [s.lower() for s in services_supported]:
+        questions_or_unknowns.append(f"Purpose '{purpose}' not recognized")
+    
+    # Add to account memo
+    account_memo['questions_or_unknowns'] = questions_or_unknowns
 
     print("\n--- Agent Response ---")
     if is_business_hour():
         print(f"Greeting! This is {agent_spec['agent_name']} for {account_memo['company_name']}.")
-        print(f"Collecting info: Name: {caller_name}, Phone: {caller_phone}")
-        print(f"Purpose identified as '{purpose}'. Routing to the correct agent.")
-        print(f"Next steps confirmed. Thank you!")
+        print(f"Collecting info: Name: {caller_name or 'Unknown'}, Phone: {caller_phone or 'Unknown'}")
+        if purpose:
+            print(f"Purpose identified as '{purpose}'. Routing to the correct agent.")
+        else:
+            print("Purpose not provided. Need clarification.")
+        print("Next steps confirmed. Thank you!")
     else:
         print("After hours call detected.")
-        print(f"Confirming emergency for purpose: {purpose}")
+        print(f"Confirming emergency for purpose: {purpose or 'Unknown'}")
         if purpose.lower() in [e.lower() for e in account_memo.get("emergency_definition", [])]:
             print("Emergency detected! Attempting transfer...")
             for attempt in range(1, transfer_rules["retries"] + 1):
@@ -56,10 +71,17 @@ def simulate_call():
             print("Non-emergency after hours. Recording info and assuring callback next business day.")
 
     print("\n--- Call Summary ---")
-    print(f"Caller: {caller_name}, Phone: {caller_phone}")
-    print(f"Purpose: {purpose}")
+    print(f"Caller: {caller_name or 'Unknown'}, Phone: {caller_phone or 'Unknown'}")
+    print(f"Purpose: {purpose or 'Unknown'}")
     print(f"Handled by: {agent_spec['agent_name']}")
-    print(f"Business Hours: {business_hours['days'][0]}-{business_hours['days'][-1]}, {business_hours['start']}-{business_hours['end']} {agent_spec['key_variables']['timezone']}")
+    print(f"Business Hours: {business_hours['days'][0]}-{business_hours['days'][-1]}, "
+          f"{business_hours['start']}-{business_hours['end']} {agent_spec['key_variables']['timezone']}")
+    
+    # Save updated account memo with questions_or_unknowns
+    output_path = "D:/Zentrade/outputs/accounts/ben001/v2/account_memo_updated.json"
+    with open(output_path, "w") as f:
+        json.dump(account_memo, f, indent=4)
+    print(f"\nUpdated account memo saved to {output_path}")
 
 if __name__ == "__main__":
     simulate_call()
