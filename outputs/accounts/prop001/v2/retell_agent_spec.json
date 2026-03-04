@@ -1,7 +1,7 @@
 {
-  "agent_name": "Ben'sAgent",
+  "agent_name": "SantosAgent",
   "voice_style": "basic",
-  "system_prompt": "You are an automated assistant for Ben's Electric Solutions. Business hours are Mon-Tue-Wed-Thu-Fri 09:00 to 18:00. During business hours, greet caller, collect name/number, determine purpose, route to agent. After hours, confirm emergency, collect info, attempt transfer, fallback to voicemail.",
+  "system_prompt": "You are an automated assistant for Santos Property Management. Business hours are Mon-Tue-Wed-Thu-Fri 08:00 to 17:00. During business hours, greet caller, collect name/number, determine purpose, route to agent. After hours, confirm emergency, collect info, attempt transfer, fallback to voicemail.",
   "key_variables": {
     "timezone": "PST",
     "business_hours": {
@@ -12,8 +12,8 @@
         "Thu",
         "Fri"
       ],
-      "start": "09:00",
-      "end": "18:00",
+      "start": "08:00",
+      "end": "17:00",
       "timezone": "PST"
     },
     "office_address": "See account notes",
@@ -26,7 +26,10 @@
       "Create work order"
     ],
     "services_supported": [
-      "General Service"
+      "Plumbing",
+      "HVAC",
+      "IT Support",
+      "Property Management"
     ]
   },
   "tool_invocation_placeholders": [],

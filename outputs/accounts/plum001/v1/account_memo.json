@@ -1,6 +1,6 @@
 {
-  "account_id": "ben001",
-  "company_name": "Ben's Electric Solutions",
+  "account_id": "plum001",
+  "company_name": "Mike's Plumbing Services",
   "business_hours": {
     "days": [
       "Mon",
@@ -9,13 +9,15 @@
       "Thu",
       "Fri"
     ],
-    "start": "09:00",
-    "end": "18:00",
+    "start": "07:00",
+    "end": "17:00",
     "timezone": "PST"
   },
   "office_address": "See account notes",
   "services_supported": [
-    "General Service"
+    "Plumbing",
+    "HVAC",
+    "IT Support"
   ],
   "emergency_definition": [
     "Urgent Issue"
@@ -37,5 +39,5 @@
   "after_hours_flow_summary": "Greet, confirm emergency, collect info, attempt transfer, fallback to voicemail",
   "office_hours_flow_summary": "Greet, collect info, transfer to agent, confirm next steps",
   "questions_or_unknowns": [],
-  "notes": "Updated from: onboard1.txt"
+  "notes": "Created from demo: demo2.txt"
 }

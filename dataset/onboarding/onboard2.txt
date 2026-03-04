@@ -1,0 +1,32 @@
+[00:00 - 00:30] Good morning, Mike. This is Sarah from Retell. How are you today?
+
+[00:30 - 01:00] Hi Sarah, I'm doing well. Ready to get this set up.
+
+[01:00 - 01:45] Perfect. Let's walk through the onboarding details to finalize your agent configuration. First, can you confirm your business name and address?
+
+[01:45 - 02:30] Sure. Mike's Plumbing Services, located at 456 Oak Avenue, Suite 101, Riverside, CA 92501. That's our main office.
+
+[02:30 - 03:15] Got it. And your primary contact for dispatch - will it be you or someone else?
+
+[03:15 - 04:00] It'll be me most of the time, but when I'm on a job I have my technician Jake who can take calls. His number is 951-555-0123. We also have Linda in the office who handles scheduling during business hours.
+
+[04:00 - 04:45] Great. Let's confirm your business hours - Monday through Friday, 7 AM to 5 PM, correct?
+
+[04:45 - 05:30] Yes, that's correct. We're closed weekends. Though I might do occasional weekend emergencies.
+
+[05:30 - 06:15] Understood. Now for emergencies - what number should the AI transfer to for urgent calls?
+
+[06:15 - 07:00] My cell is 951-555-0100. That's the fastest way to reach me. For Jake, it's 951-555-0123. Linda in the office doesn't handle emergencies.
+
+[07:00 - 07:45] Perfect. One more question - any specific information you want the AI to collect from callers?
+
+[07:45 - 08:30] Yes. Name, phone number, address where service is needed, and a brief description of the problem. If it's a drains issue, ask if it's completely blocked or draining slowly.
+
+[08:30 - 09:15] Got it. And can you confirm your service pricing to share with callers?
+
+[09:15 - 10:00] $85 first hour, $65 per hour after that. $50 service call fee. We accept credit cards, checks, and we can invoice for commercial accounts.
+
+[10:00 - 10:30] Thank you, Mike. That's everything we need. Your agent will be ready within 24 hours.
+
+[10:30 - 11:00] Excellent. I look forward to testing it.
+

@@ -2,24 +2,42 @@
   "account_id": "ben001",
   "company_name": "Ben's Electric Solutions",
   "business_hours": {
-    "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
     "start": "09:00",
     "end": "18:00",
-    "timezone": "EST"
+    "timezone": "PST"
   },
-  "office_address": "123 Main Street, Toronto, ON, Canada",
-  "services_supported": ["Electrical Maintenance", "Emergency Repairs"],
-  "emergency_definition": ["Power Outage", "Fire Alarm"],
-  "emergency_routing_rules": ["Call 24/7 hotline", "Notify onsite manager"],
-  "non_emergency_routing_rules": ["Schedule visit next business day", "Email confirmation"],
+  "office_address": "See account notes",
+  "services_supported": [
+    "HVAC",
+    "IT Support",
+    "Property Management"
+  ],
+  "emergency_definition": [
+    "Urgent Issue"
+  ],
+  "emergency_routing_rules": [
+    "Transfer to on-call technician",
+    "Leave message if no answer"
+  ],
+  "non_emergency_routing_rules": [
+    "Schedule callback",
+    "Create work order"
+  ],
   "call_transfer_rules": {
     "timeouts": "30s",
     "retries": 2,
-    "fallback": "Send to voicemail"
+    "fallback": "Leave message and notify via SMS"
   },
-  "integration_constraints": ["Never create sprinkler jobs in ServiceTrade"],
-  "after_hours_flow_summary": "Greet, collect info, route emergency, fallback to voicemail",
-  "office_hours_flow_summary": "Greet, collect info, transfer to proper agent, confirm next steps",
+  "integration_constraints": [],
+  "after_hours_flow_summary": "Greet, confirm emergency, collect info, attempt transfer, fallback to voicemail",
+  "office_hours_flow_summary": "Greet, collect info, transfer to agent, confirm next steps",
   "questions_or_unknowns": [],
-  "notes": "Created from demo call transcript"
+  "notes": "Created from demo: transcript.txt"
 }

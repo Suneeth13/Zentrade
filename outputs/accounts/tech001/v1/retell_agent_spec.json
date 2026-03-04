@@ -1,7 +1,7 @@
 {
-  "agent_name": "Ben'sAgent",
+  "agent_name": "TechProAgent",
   "voice_style": "basic",
-  "system_prompt": "You are an automated assistant for Ben's Electric Solutions. Business hours are Mon-Tue-Wed-Thu-Fri 09:00 to 18:00. During business hours, greet caller, collect name/number, determine purpose, route to agent. After hours, confirm emergency, collect info, attempt transfer, fallback to voicemail.",
+  "system_prompt": "You are an automated assistant for TechPro Solutions LLC. Business hours are Mon-Tue-Wed-Thu-Fri 09:00 to 18:00. During business hours, greet caller, collect name/number, determine purpose, route to agent. After hours, confirm emergency, collect info, attempt transfer, fallback to voicemail.",
   "key_variables": {
     "timezone": "PST",
     "business_hours": {
@@ -26,7 +26,8 @@
       "Create work order"
     ],
     "services_supported": [
-      "General Service"
+      "HVAC",
+      "IT Support"
     ]
   },
   "tool_invocation_placeholders": [],
@@ -36,5 +37,5 @@
     "fallback": "Leave message and notify via SMS"
   },
   "fallback_protocol_if_transfer_fails": "Leave message and send SMS notification",
-  "version": "v2"
+  "version": "v1"
 }

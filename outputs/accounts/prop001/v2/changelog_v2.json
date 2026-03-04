@@ -1,21 +1,25 @@
 {
-  "account_id": "ben001",
+  "account_id": "prop001",
   "version_from": "v1",
   "version_to": "v2",
   "changes": [
     {
       "field": "services_supported",
       "old_value": [
+        "Plumbing",
         "HVAC",
         "IT Support",
         "Property Management"
       ],
       "new_value": [
-        "General Service"
+        "Plumbing",
+        "HVAC",
+        "IT Support",
+        "Property Management"
       ],
       "description": "Updated services from onboarding"
     }
   ],
-  "timestamp": "2026-03-04T15:59:01.510161",
+  "timestamp": "2026-03-04T15:59:01.528762",
   "notes": "Generated from onboarding info"
 }

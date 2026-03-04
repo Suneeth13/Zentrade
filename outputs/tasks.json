@@ -1,0 +1,99 @@
+{
+  "tasks": [
+    {
+      "id": "task_ben001_demo_v1",
+      "account_id": "ben001",
+      "type": "demo_v1",
+      "status": "completed",
+      "details": "Processed transcript.txt",
+      "created_at": "2026-03-04T15:59:01.479436",
+      "updated_at": "2026-03-04T15:59:01.479446"
+    },
+    {
+      "id": "task_plum001_demo_v1",
+      "account_id": "plum001",
+      "type": "demo_v1",
+      "status": "completed",
+      "details": "Processed demo2.txt",
+      "created_at": "2026-03-04T15:59:01.481422",
+      "updated_at": "2026-03-04T15:59:01.481434"
+    },
+    {
+      "id": "task_med001_demo_v1",
+      "account_id": "med001",
+      "type": "demo_v1",
+      "status": "completed",
+      "details": "Processed demo3.txt",
+      "created_at": "2026-03-04T15:59:01.485033",
+      "updated_at": "2026-03-04T15:59:01.485065"
+    },
+    {
+      "id": "task_tech001_demo_v1",
+      "account_id": "tech001",
+      "type": "demo_v1",
+      "status": "completed",
+      "details": "Processed demo4.txt",
+      "created_at": "2026-03-04T15:59:01.487301",
+      "updated_at": "2026-03-04T15:59:01.487312"
+    },
+    {
+      "id": "task_prop001_demo_v1",
+      "account_id": "prop001",
+      "type": "demo_v1",
+      "status": "completed",
+      "details": "Processed demo5.txt",
+      "created_at": "2026-03-04T15:59:01.488850",
+      "updated_at": "2026-03-04T15:59:01.488857"
+    },
+    {
+      "id": "task_ben001_onboarding_v2",
+      "account_id": "ben001",
+      "type": "onboarding_v2",
+      "status": "completed",
+      "details": "Processed onboard1.txt",
+      "created_at": "2026-03-04T15:59:01.511122",
+      "updated_at": "2026-03-04T15:59:01.511130"
+    },
+    {
+      "id": "task_plum001_onboarding_v2",
+      "account_id": "plum001",
+      "type": "onboarding_v2",
+      "status": "completed",
+      "details": "Processed onboard2.txt",
+      "created_at": "2026-03-04T15:59:01.515587",
+      "updated_at": "2026-03-04T15:59:01.515591"
+    },
+    {
+      "id": "task_med001_onboarding_v2",
+      "account_id": "med001",
+      "type": "onboarding_v2",
+      "status": "completed",
+      "details": "Processed onboard3.txt",
+      "created_at": "2026-03-04T15:59:01.521563",
+      "updated_at": "2026-03-04T15:59:01.521579"
+    },
+    {
+      "id": "task_tech001_onboarding_v2",
+      "account_id": "tech001",
+      "type": "onboarding_v2",
+      "status": "completed",
+      "details": "Processed onboard4.txt",
+      "created_at": "2026-03-04T15:59:01.525151",
+      "updated_at": "2026-03-04T15:59:01.525156"
+    },
+    {
+      "id": "task_prop001_onboarding_v2",
+      "account_id": "prop001",
+      "type": "onboarding_v2",
+      "status": "completed",
+      "details": "Processed onboard5.txt",
+      "created_at": "2026-03-04T15:59:01.530174",
+      "updated_at": "2026-03-04T15:59:01.530183"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "completed": 10,
+    "pending": 0
+  }
+}

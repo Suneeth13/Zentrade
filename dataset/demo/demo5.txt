@@ -1,0 +1,32 @@
+[00:00 - 00:25] Good morning, you've reached QuickFix Auto Repair. This is Tony, how can I help you?
+
+[00:25 - 00:55] Hi Tony, this is Maria Santos. I run a property management company and I'm looking for an AI answering service for our maintenance department.
+
+[00:55 - 01:25] I'd be happy to help. Tell me about your property management business.
+
+[01:25 - 02:20] We manage about 200 residential units across 15 apartment buildings. We have a maintenance team of 4 technicians. The main problem is tenants calling about maintenance issues at all hours - broken AC in summer, plumbing leaks, things like that.
+
+[02:20 - 02:55] That makes sense. What are your office hours?
+
+[02:55 - 03:40] We're technically 8 AM to 5 PM, Monday through Friday. But tenants don't care about business hours - they call when they have problems. After hours is a big issue for us.
+
+[03:40 - 04:20] What do you want the AI to do with after-hours calls?
+
+[04:20 - 05:10] For true emergencies like no hot water, flooding, or AC out in summer heat - I want immediate transfer to our on-call technician. For non-emergencies like slow drains or light bulb requests, take a message and we'll handle next business day.
+
+[05:10 - 05:50] Got it. What qualifies as an emergency for you?
+
+[05:50 - 06:40] Anything that affects health or safety, or makes the unit uninhabitable. No hot water in winter, no AC in summer over 85 degrees, major water leaks, electrical problems, gas smells - those are emergencies. Everything else can wait.
+
+[06:40 - 07:25] Understood. Do you have any specific pricing information you want shared?
+
+[07:25 - 08:10] Our emergency service call is $150, regular maintenance is $85 per hour. We don't charge for routine requests. We also have a $50 after-hours dispatch fee.
+
+[08:10 - 08:45] One more question - do you want the AI to create work orders directly?
+
+[08:45 - 09:30] Yes! We use Buildium for property management. Ideally the AI would create a work order in Buildium. But even just collecting all the info and emailing it to us would be helpful.
+
+[09:30 - 10:00] Thank you, Maria. We can definitely help with this.
+
+[10:00 - 10:30] Let's set up that demo.
+

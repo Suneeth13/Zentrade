@@ -1,0 +1,32 @@
+[00:00 - 00:30] Good afternoon, Robert. This is Alex from Retell. How can I help you today?
+
+[00:30 - 01:00] Hi Alex, I'm ready to finalize my agent setup.
+
+[01:00 - 01:45] Great. Let's confirm your business details. Your address is 321 Tech Drive, Building C, correct?
+
+[01:45 - 02:30] Yes, that's our office. TechPro Solutions LLC. Main line is 555-345-6789.
+
+[02:30 - 03:15] Got it. Who are your primary contacts for support dispatch?
+
+[03:15 - 04:00] I'm the main contact - Robert Chen at 555-345-6701. My technicians are Jake Wilson and Sarah Kim. Jake handles network issues, Sarah handles software problems. Their numbers are in our dispatch system.
+
+[04:00 - 04:45] Understood. Let's confirm business hours - 9 AM to 5 PM, Monday through Friday.
+
+[04:45 - 05:30] Yes, that's correct. Though we often work late when there's an urgent issue.
+
+[05:30 - 06:15] For urgent after-hours calls, what number should transfer to?
+
+[06:15 - 07:00] My cell is 555-345-6701. That's the best way to reach me. If I don't answer in 15 seconds, try Jake at 555-345-6702.
+
+[07:00 - 07:45] Got it. What ticket information should the AI collect?
+
+[07:45 - 08:30] Client company name, contact person, phone number, email, description of the issue, and urgency level. If it's a security breach or server outage, mark as critical priority.
+
+[08:30 - 09:15] One more question - confirm no Zendesk integration needed at this stage?
+
+[09:15 - 10:00] Right, we'll do manual ticket creation for now. Just need the AI to gather all the info accurately.
+
+[10:00 - 10:30] Thank you, Robert. Your agent will be ready soon.
+
+[10:30 - 11:00] Perfect, looking forward to testing it.
+

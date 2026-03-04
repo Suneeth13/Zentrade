@@ -1,24 +1,42 @@
 {
-  "agent_name": "BenElectricAgent",
+  "agent_name": "Ben'sAgent",
   "voice_style": "basic",
-  "system_prompt": "You are an automated assistant for Ben's Electric Solutions. During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. After hours, confirm emergency, collect name, number, and address, attempt transfer, fallback to voicemail if fails, and assure quick follow-up.",
+  "system_prompt": "You are an automated assistant for Ben's Electric Solutions. Business hours are Mon-Tue-Wed-Thu-Fri 09:00 to 18:00. During business hours, greet caller, collect name/number, determine purpose, route to agent. After hours, confirm emergency, collect info, attempt transfer, fallback to voicemail.",
   "key_variables": {
-    "timezone": "EST",
+    "timezone": "PST",
     "business_hours": {
-      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
       "start": "09:00",
-      "end": "18:00"
+      "end": "18:00",
+      "timezone": "PST"
     },
-    "office_address": "123 Main Street, Toronto, ON, Canada",
-    "emergency_routing_rules": ["Call 24/7 hotline", "Notify onsite manager"],
-    "non_emergency_routing_rules": ["Schedule visit next business day", "Email confirmation"]
+    "office_address": "See account notes",
+    "emergency_routing_rules": [
+      "Transfer to on-call",
+      "SMS notification"
+    ],
+    "non_emergency_routing_rules": [
+      "Schedule callback",
+      "Create work order"
+    ],
+    "services_supported": [
+      "HVAC",
+      "IT Support",
+      "Property Management"
+    ]
   },
   "tool_invocation_placeholders": [],
   "call_transfer_protocol": {
     "timeouts": "30s",
     "retries": 2,
-    "fallback": "Send to voicemail"
+    "fallback": "Leave message and notify via SMS"
   },
-  "fallback_protocol_if_transfer_fails": "Leave message and notify manager",
+  "fallback_protocol_if_transfer_fails": "Leave message and send SMS notification",
   "version": "v1"
 }

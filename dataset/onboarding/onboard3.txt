@@ -1,0 +1,32 @@
+[00:00 - 00:30] Good afternoon, Jennifer. This is David from Retell. How are you today?
+
+[00:30 - 01:00] Hi David, I'm doing well. Ready to finalize the setup.
+
+[01:00 - 01:45] Great. Let's confirm your practice details. Your address is 789 Health Boulevard, Suite 200, correct?
+
+[01:45 - 02:30] Yes, that's right. GreenLeaf Medical Clinic. Our phone is 555-234-5678.
+
+[02:30 - 03:15] Got it. Now, who should be the primary contact for emergency callbacks?
+
+[03:15 - 04:00] Dr. Martinez - that's me - am the primary. But we have Dr. Thompson and Dr. Lee as well. We rotate on-call weekly. Current on-call is Dr. Thompson at 555-234-5701.
+
+[04:00 - 04:45] Understood. Let's confirm business hours - Monday through Friday, 8 AM to 6 PM, with lunch 12 to 1 PM.
+
+[04:45 - 05:30] That's correct. We're closed weekends and major holidays.
+
+[05:30 - 06:15] For after-hours emergencies, what number should transfer to?
+
+[06:15 - 07:00] Our main after-hours line is 555-234-5700. That goes to the on-call doctor. If they don't answer within 30 seconds, try Dr. Thompson's direct line.
+
+[07:00 - 07:45] Perfect. What patient information should the AI collect?
+
+[07:45 - 08:30] Patient name, date of birth, phone number, reason for call. For new patients, also insurance provider and policy number if available. For prescription refills, medication name and pharmacy name.
+
+[08:30 - 09:15] Got it. And confirm - no integration with AthenaHealth needed at this stage, correct?
+
+[09:15 - 10:00] Right, we'll handle scheduling manually for now. Just need the AI to collect accurate information.
+
+[10:00 - 10:30] Thank you, Jennifer. Your agent will be ready soon.
+
+[10:30 - 11:00] Great, looking forward to it.
+

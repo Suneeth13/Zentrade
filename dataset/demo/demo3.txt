@@ -1,0 +1,32 @@
+[00:00 - 00:25] Hi there, thanks for calling HVAC Solutions. This is David, how can I help you?
+
+[00:25 - 00:55] Hi David, this is Jennifer Martinez from GreenLeaf Medical Clinic. We need an AI receptionist for our front desk.
+
+[00:55 - 01:30] I'd be happy to help. Tell me more about your practice and how calls come in.
+
+[01:30 - 02:30] We're a small medical clinic with 3 doctors. We get lots of calls for appointment scheduling, prescription refills, and test results. We also have some elderly patients who prefer phone calls over online portals.
+
+[02:30 - 03:00] I see. What are your current office hours?
+
+[03:00 - 03:45] We're open Monday through Friday, 8 AM to 6 PM. We close for lunch from 12 to 1 PM. We're closed on weekends and holidays.
+
+[03:45 - 04:30] Got it. And how do you handle after-hours calls? Do you have an on-call doctor?
+
+[04:30 - 05:15] Yes, we have a rotating on-call doctor 24/7. For true emergencies, we want the AI to transfer directly to the on-call line. For non-emergencies, it should take a message and we call back the next business day.
+
+[05:15 - 06:00] What would you consider an emergency in your practice?
+
+[06:00 - 07:00] Chest pain, difficulty breathing, severe bleeding - those are obvious emergencies. Also any call from a hospital or ambulance dispatch. For everything else, a message is fine.
+
+[07:00 - 07:45] Understood. One more question - do you need the AI to integrate with any existing practice management software?
+
+[07:45 - 08:30] We use AthenaHealth for appointments. It would be great if the AI could look up patient appointments, but I understand that might be complex. At minimum, it should be able to schedule callbacks.
+
+[08:30 - 09:15] That makes sense. And what information should the AI collect from callers?
+
+[09:15 - 10:15] Patient name, date of birth, phone number, reason for call, and insurance information if it's a new patient. For existing patients, we just need their name and date of birth to pull up their file.
+
+[10:15 - 10:45] Thank you, Jennifer. This sounds like a great fit for our service.
+
+[10:45 - 11:15] I'm glad you think so. Let's set up that demo.
+

@@ -1,0 +1,32 @@
+[00:00 - 00:30] Good morning, Maria. This is Tony from Retell. How can I help you today?
+
+[00:30 - 01:00] Hi Tony, I'm ready to get this set up.
+
+[01:00 - 01:45] Great. Let's confirm your business details. Your main office is at 555 Property Lane, correct?
+
+[01:45 - 02:30] Yes, that's our office. Santos Property Management. Main line is 555-456-7890.
+
+[02:30 - 03:15] Got it. Who should be the primary contacts for maintenance dispatch?
+
+[03:15 - 04:00] I'm the main contact. My cell is 555-456-7900. Our maintenance technicians are Mike and Carlos. Mike handles plumbing and electrical, Carlos handles HVAC and general repairs. Mike's cell is 555-456-7901, Carlos is 555-456-7902.
+
+[04:00 - 04:45] Understood. Let's confirm business hours - 8 AM to 5 PM, Monday through Friday.
+
+[04:45 - 05:30] Yes, that's correct. We're closed weekends and major holidays.
+
+[05:30 - 06:15] For emergency after-hours calls, what numbers should transfer to?
+
+[06:15 - 07:00] For true emergencies - no hot water, flooding, AC out in heat - transfer to Mike at 555-456-7901. If it's after 9 PM, try Carlos at 555-456-7902. If neither answers, leave a message and we'll call back within 30 minutes.
+
+[07:00 - 07:45] Got it. What information should the AI collect from tenants?
+
+[07:45 - 08:30] Tenant name, unit number, phone number, description of the issue, and when it started. For plumbing issues, ask if it's getting worse or if there's water damage.
+
+[08:30 - 09:15] One more question - confirm no Buildium integration at this stage?
+
+[09:15 - 10:00] Right, we'll do work orders manually. Just need the AI to collect accurate information and text it to us.
+
+[10:00 - 10:30] Thank you, Maria. Your agent will be ready soon.
+
+[10:30 - 11:00] Perfect, looking forward to testing it.
+

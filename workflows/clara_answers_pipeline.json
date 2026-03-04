@@ -1,0 +1,208 @@
+{
+  "name": "Clara Answers Automation Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 5
+            }
+          ]
+        },
+        "triggerOn": ":{{$json.file}}"
+      },
+      "id": "file-watcher",
+      "name": "Watch Transcript Files",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "filePath": "D:/Zentrade/dataset/demo",
+        "options": {}
+      },
+      "id": "read-demo-file",
+      "name": "Read Demo Transcript",
+      "type": "n8n-nodes-base.readBinaryFile",
+      "typeVersion": 1,
+      "position": [450, 200]
+    },
+    {
+      "parameters": {
+        "filePath": "D:/Zentrade/dataset/onboarding",
+        "options": {}
+      },
+      "id": "read-onboarding-file",
+      "name": "Read Onboarding Transcript",
+      "type": "n8n-nodes-base.readBinaryFile",
+      "typeVersion": 1,
+      "position": [450, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract key information from transcript\nconst transcript = $input.first().json.content;\nconst isOnboarding = $input.first().json.isOnboarding;\n\n// Rule-based extraction (simplified)\nconst lines = transcript.toLowerCase();\n\n// Extract business hours\nlet startTime = '09:00';\nlet endTime = '18:00';\nlet days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];\nlet timezone = 'PST';\n\nif (lines.includes('7 am')) startTime = '07:00';\nif (lines.includes('8 am')) startTime = '08:00';\nif (lines.includes('5 pm')) endTime = '17:00';\nif (lines.includes('6 pm')) endTime = '18:00';\n\n// Extract services\nconst services = [];\nif (lines.includes('plumb')) services.push('Plumbing');\nif (lines.includes('hvac') || lines.includes('ac') || lines.includes('heating')) services.push('HVAC');\nif (lines.includes('it') || lines.includes('tech') || lines.includes('support')) services.push('IT Support');\nif (lines.includes('medical') || lines.includes('clinic')) services.push('Medical');\nif (lines.includes('property') || lines.includes('maintenance')) services.push('Property Management');\nif (lines.includes('repair')) services.push('Repair');\n\nif (services.length === 0) services.push('General Service');\n\n// Extract emergency info\nconst emergencies = [];\nif (lines.includes('outage') || lines.includes('no hot water')) emergencies.push('Utility Outage');\nif (lines.includes('flood') || lines.includes('leak')) emergencies.push('Water Leak');\nif (lines.includes('ac') && lines.includes('heat')) emergencies.push('AC Out in Heat');\nif (lines.includes('chest pain') || lines.includes('breathing')) emergencies.push('Medical Emergency');\nif (lines.includes('security') || lines.includes('breach')) emergencies.push('Security Breach');\n\n// Determine account type\nlet accountType = 'general';\nif (lines.includes('plumb')) accountType = 'plumbing';\nif (lines.includes('medical') || lines.includes('clinic')) accountType = 'medical';\nif (lines.includes('property')) accountType = 'property';\nif (lines.includes('it') || lines.includes('tech')) accountType = 'it';\n\nreturn {\n  business_hours: { days, start: startTime, end: endTime, timezone },\n  services_supported: services,\n  emergency_definition: emergencies.length > 0 ? emergencies : ['Urgent Issue'],\n  account_type: accountType,\n  is_onboarding: isOnboarding\n};"
+      },
+      "id": "extract-info",
+      "name": "Extract Info from Transcript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Generate account memo JSON\nconst extracted = $input.first().json;\nconst accountId = $('file-watcher').first().json.accountId || 'unknown';\nconst companyName = $('file-watcher').first().json.companyName || 'Unknown Company';\nconst version = extracted.is_onboarding ? 'v2' : 'v1';\n\nconst accountMemo = {\n  account_id: accountId,\n  company_name: companyName,\n  business_hours: extracted.business_hours,\n  office_address: 'See account notes',\n  services_supported: extracted.services_supported,\n  emergency_definition: extracted.emergency_definition,\n  emergency_routing_rules: ['Transfer to on-call', 'Notify via SMS'],\n  non_emergency_routing_rules: ['Schedule callback', 'Create work order'],\n  call_transfer_rules: {\n    timeouts: '30s',\n    retries: 2,\n    fallback: 'Leave message and notify via SMS'\n  },\n  integration_constraints: [],\n  after_hours_flow_summary: 'Greet, confirm emergency, collect info, attempt transfer, fallback to voicemail',\n  office_hours_flow_summary: 'Greet, collect info, transfer to agent, confirm next steps',\n  questions_or_unknowns: [],\n  notes: `Generated from ${extracted.is_onboarding ? 'onboarding' : 'demo'} call`\n};\n\nreturn { account_memo: accountMemo, version };"
+      },
+      "id": "generate-memo",
+      "name": "Generate Account Memo",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Generate Retell agent spec\nconst memo = $input.first().json.accountMemo;\nconst extracted = $('extract-info').first().json;\n\nconst agentSpec = {\n  agent_name: `${memo.company_name.split(' ')[0]}Agent`,\n  voice_style: 'basic',\n  system_prompt: `You are an automated assistant for ${memo.company_name}. ` +\n    `Business hours are ${memo.business_hours.days.join('-')} ${memo.business_hours.start} to ${memo.business_hours.end}. ` +\n    'During business hours, greet the caller, collect name and number, determine the purpose, and route to the correct agent. ' +\n    'After hours, confirm if emergency, collect name, number, address, attempt transfer, fallback to voicemail, assure quick follow-up.',\n  key_variables: {\n    timezone: memo.business_hours.timezone,\n    business_hours: memo.business_hours,\n    office_address: memo.office_address,\n    emergency_routing_rules: memo.emergency_routing_rules,\n    non_emergency_routing_rules: memo.non_emergency_routing_rules,\n    services_supported: memo.services_supported\n  },\n  tool_invocation_placeholders: [],\n  call_transfer_protocol: memo.call_transfer_rules,\n  fallback_protocol_if_transfer_fails: 'Leave message and send SMS notification',\n  version: $input.first().json.version\n};\n\nreturn { agent_spec: agentSpec };"
+      },
+      "id": "generate-agent-spec",
+      "name": "Generate Agent Spec",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1050, 300]
+    },
+    {
+      "parameters": {
+        "filePath": "={{$json.outputPath}}",
+        "fileContent": "={{JSON.stringify($json.accountMemo, null, 2)}}",
+        "options": {
+          "overwrite": true
+        }
+      },
+      "id": "save-memo",
+      "name": "Save Account Memo",
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "typeVersion": 1,
+      "position": [1250, 250]
+    },
+    {
+      "parameters": {
+        "filePath": "={{$json.outputPath}}",
+        "fileContent": "={{JSON.stringify($json.agentSpec, null, 2)}}",
+        "options": {
+          "overwrite": true
+        }
+      },
+      "id": "save-agent-spec",
+      "name": "Save Agent Spec",
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "typeVersion": 1,
+      "position": [1250, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Generate changelog for v2 updates\nconst isV2 = $('generate-memo').first().json.version === 'v2';\n\nif (!isV2) {\n  return { skip: true };\n}\n\nconst changelog = {\n  account_id: $('file-watcher').first().json.accountId,\n  version_from: 'v1',\n  version_to: 'v2',\n  changes: [\n    {\n      field: 'services_supported',\n      description: 'Updated from onboarding call'\n    }\n  ],\n  timestamp: new Date().toISOString(),\n  notes: 'Generated from onboarding info'\n};\n\nreturn { changelog };"
+      },
+      "id": "generate-changelog",
+      "name": "Generate Changelog",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1450, 300]
+    },
+    {
+      "parameters": {
+        "filePath": "={{$json.outputPath}}",
+        "fileContent": "={{JSON.stringify($json.changelog, null, 2)}}",
+        "options": {
+          "overwrite": true
+        }
+      },
+      "id": "save-changelog",
+      "name": "Save Changelog",
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "typeVersion": 1,
+      "position": [1650, 300]
+    }
+  ],
+  "connections": {
+    "Watch Transcript Files": {
+      "main": [
+        [
+          {
+            "node": "Read Demo Transcript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Demo Transcript": {
+      "main": [
+        [
+          {
+            "node": "Extract Info from Transcript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Info from Transcript": {
+      "main": [
+        [
+          {
+            "node": "Generate Account Memo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Account Memo": {
+      "main": [
+        [
+          {
+            "node": "Generate Agent Spec",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Agent Spec": {
+      "main": [
+        [
+          {
+            "node": "Save Account Memo",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Save Agent Spec",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Changelog": {
+      "main": [
+        [
+          {
+            "node": "Save Changelog",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "id": "clara-answers-pipeline",
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2026-03-04T00:00:00.000Z",
+  "createdAt": "2026-03-04T00:00:00.000Z"
+}
+

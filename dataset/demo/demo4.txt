@@ -1,0 +1,32 @@
+[00:00 - 00:20] Good afternoon, you've reached TechSupport Pro. This is Alex, how may I help you?
+
+[00:20 - 00:50] Hi Alex, my name is Robert Chen and I run a small IT consulting firm. I'm looking into AI call handling for my business.
+
+[00:50 - 01:20] Great, tell me about your business and what you need.
+
+[01:20 - 02:10] I have a team of 5 technicians who do on-site IT support for small businesses. We handle everything from network setup to computer repairs. The main issue is we're always in the field and missing client calls.
+
+[02:10 - 02:45] I understand. What are your business hours?
+
+[02:45 - 03:30] We're supposed to be 9 to 5, Monday through Friday, but honestly we're answering calls all hours. Some clients have emergencies at night and weekends. We try to have someone on call but it's hard to coordinate.
+
+[03:30 - 04:15] Got it. What types of calls do you get most?
+
+[04:15 - 05:00] Mostly clients needing support tickets created. About 30% are urgent issues like server outages or security breaches. The rest are general inquiries or follow-ups.
+
+[05:00 - 05:45] What would you want the AI to do with these calls?
+
+[05:45 - 06:30] For regular inquiries, create a ticket and schedule a callback. For urgent issues, alert me immediately - I want a phone call or text. We have a dedicated emergency line I want the AI to transfer to during off hours.
+
+[06:30 - 07:15] Understood. Do you have specific pricing you want shared?
+
+[07:15 - 08:00] Our hourly rate is $150 for standard support, $200 for emergency calls. We have a minimum 1-hour charge. New client onboarding is $500 flat fee.
+
+[08:00 - 08:30] That makes sense. One more question - any specific integrations you need?
+
+[08:30 - 09:15] We use Zendesk for ticketing. Would be amazing if the AI could create tickets directly in Zendesk, but if not, just collecting the info and emailing us is fine.
+
+[09:15 - 09:45] Thank you, Robert. We can definitely help with that.
+
+[09:45 - 10:15] Let's schedule that demo.
+

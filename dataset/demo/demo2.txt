@@ -1,0 +1,28 @@
+[00:00 - 00:30] Hello, this is Sarah from ABC Plumbing. Thank you for calling Retell. How may I assist you today?
+
+[00:30 - 01:00] Hi Sarah, this is Mike Johnson calling. I'm interested in your AI answering service for my plumbing business.
+
+[01:00 - 01:30] Absolutely, I'd be happy to tell you more about our service. First, can you tell me a bit about your business and how you currently handle incoming calls?
+
+[01:30 - 02:30] Sure, I own Mike's Plumbing Services. We handle residential and commercial plumbing. Right now I answer calls myself on my personal phone, but I'm missing a lot of calls when I'm on jobs.
+
+[02:30 - 03:00] I understand. And what are your business hours? When do you typically take calls?
+
+[03:00 - 03:45] We're open Monday through Friday, 7 AM to 5 PM. We're closed on weekends. Sometimes I do emergency calls on weekends but it's inconsistent.
+
+[03:45 - 04:30] Got it. And what types of calls do you receive? Are they mostly scheduling appointments, emergencies, or something else?
+
+[04:30 - 05:30] Mostly scheduling and service requests. About 20% are emergencies like burst pipes or backed up sewers. For emergencies, I want to be notified immediately regardless of the time.
+
+[05:30 - 06:15] That makes sense. And when you can't take the call, what would you like the AI to do? Should it schedule appointments, dispatch technicians, or just take messages?
+
+[06:15 - 07:15] I'd like it to schedule appointments when possible. For emergencies, I want it to transfer to me or my on-call technician. We have two service vans and we rotate on-call duty weekly.
+
+[07:15 - 08:00] Perfect. One more question - do you have any specific pricing information you'd want the AI to share with callers?
+
+[08:00 - 09:00] Yes, we charge $85 for the first hour of service, and $65 per hour after that. We also have a $50 service call fee if someone just wants a diagnosis.
+
+[09:00 - 09:30] Thank you, Mike. That's very helpful. Let me share some information about our service and we can set up a demo.
+
+[09:30 - 10:00] Great, I look forward to learning more about how this works.
+
